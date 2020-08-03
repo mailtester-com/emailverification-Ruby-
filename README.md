@@ -1,4 +1,4 @@
-Email List Validation
+Mailtester
 
 A ruby gem wrapper for the mailtester.com API.
 
