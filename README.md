@@ -21,7 +21,7 @@ require 'mailtester'
 Then create an instance of the mailtester with api_key as the parameter
 
 api_key = "<YOUR_API_KEY>"
-client = Emaillistvalidation.new(api_key)
+client = mailtester.new(api_key)
 Now the API calls can be done via the client
 
 For OneByOne Verification
@@ -42,7 +42,7 @@ Example
 
 Create a client
 
-client = Emaillistvalidation.new("<api_key>")
+client = mailtester.new("<api_key>")
 Verify Single Email
 
 client.one_by_one("ankur13019@iiitd.ac.in")
